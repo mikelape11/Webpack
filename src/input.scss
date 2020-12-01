@@ -1,0 +1,35 @@
+
+@import "variables";
+@import 'mixin';
+
+
+body{
+    background-color: black;
+    .cuadrado1{
+        position: absolute;
+        margin-top: 5vh;
+        width: 300px;
+        height: 300px;
+        background-color: crimson;
+
+    }
+
+    .cuadrado2{
+        position: absolute;
+        margin-top: 35vh;
+        width: 300px;
+        height: 300px;
+        background-color: teal;
+    }
+
+    .cuadrado3{
+        position: absolute;
+        margin-top: 65vh;
+        width: 300px;
+        height: 300px;
+        background-color: darkblue;
+
+    }
+}
+
+

@@ -1,0 +1,14 @@
+@mixin body($cp,$cs){
+    body *{
+        &.dark{
+            background-color: $cp;
+            color:$cs;
+        }
+        &.light{
+            background-color: $cs;
+            color:$cp;
+        }
+    }
+}
+
+@include body($color_primary,$color_secondary);
